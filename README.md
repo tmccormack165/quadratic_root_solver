@@ -37,4 +37,4 @@ $$ \\ $$
 **Figure 5:** $f(x) = x^2 + 4$, there exists one root because the discriminant in *Figure 1* of $(0^2) - 4(1)(4)$ is less than 0, where a is 1, b is 0, and c is 4.
 
 
-
+# Usage
