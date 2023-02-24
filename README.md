@@ -6,7 +6,7 @@ $$x = \frac{-b \pm \sqrt{ b^2 - 4 a c}}{2a} \\ $$
 
 $$ax^2 + bx + c$$
 
-**Figure 2:** This is the quadratic equation of a parabola. The formula in *Figure1* will find the cooridinates where the parabola crosses the X axis
+**Figure 2:** This is the quadratic equation of a parabola. The formula in *Figure 1* will find the cooridinates where the parabola crosses the X axis
 
 $$ \\ $$
 
