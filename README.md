@@ -56,3 +56,6 @@ root 1: 0
 # Catch2 Unit Testing
 
 The Catch2 unit testing framework is the second most popular unit testing framework for C++, with approximately 11% of professionals using it for their projects. The framework was chosen for its ease of installation, and for the lack of need for functionalities exclusive to Google Test.
+
+## Catch2 Advantages In Their Own Words
+"Catch2's main advantage is that using it is both simple and natural. Test names do not have to be valid identifiers, assertions look like normal C++ boolean expressions, and sections provide a nice and local way to share set-up and tear-down code in tests."
