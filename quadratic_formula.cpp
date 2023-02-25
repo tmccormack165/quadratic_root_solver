@@ -18,11 +18,18 @@ int main() {
     cout << "c: ";
     cin >> c;
     
+    // call the solving function
     solve(a, b, c);
 
     return 0;
 }
 
+/**
+ * Checks if the floating point radicand is equal to zero
+ *
+ * @param radicand <float> The expression under the square root sign in the quadratic formula.
+ * @return is_zero <bool> Whether or not the radicand is equal to zero based on a threshold value.
+ */
 bool check_zero(float radicand){
     float threshold;
     bool is_zero;
@@ -36,14 +43,23 @@ bool check_zero(float radicand){
     return is_zero;
 }
 
-
-
+/**
+ * Solves for the roots of a quadratic expression given the coefficients.
+ *
+ * @param a <float> Coefficient for a.
+ * @param b <float> Coefficient for b.
+ * @param c <float> Coefficient for c.
+ * @return <void>
+ */
 void solve(float a, float b, float c){
     float b_sq, radicand, radical, minus_b, numerator_v1, numerator_v2, denominator, root1, root2;
     bool radicand_zero;
 
 
     // calculate the radicand to determine the number of roots
+    // positive radicands will have two roots
+    // radicands equal to zero will have one root
+    // negative radicands will have no real roots
     b_sq = pow(b, 2);
     radicand = b_sq - 4 * a * c;
     radicand_zero = check_zero(radicand);
