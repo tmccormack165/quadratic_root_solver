@@ -38,3 +38,18 @@ $$ \\ $$
 
 
 # Usage
+
+1. Compile C++ file and execute the executable from the terminal
+```
+g++ quadratic_formula.cpp -o a.out && ./a.out
+```
+2. Insert the coefficients of the formula
+```
+a: <1>
+b: <0>
+c: <0>
+```
+3. View the output
+```
+root 1: 0
+```
