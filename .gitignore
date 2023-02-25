@@ -1,0 +1,4 @@
+# no executable files except Makefiles
+*
+!*.c
+!Makefile
