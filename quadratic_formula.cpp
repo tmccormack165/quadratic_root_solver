@@ -6,10 +6,12 @@ using namespace std;
 
 void solve(float a, float b, float c);
 
-int main() {
+int main(int argc, char *argv[]) {
     float a, b, c, roots;
-    
-    
+    a = stof(argv[1]);
+    b = stof(argv[2]);
+    c = stof(argv[3]);
+    /*
     //Get the coefficients from the user
     cout << "a: ";
     cin >> a;
@@ -17,6 +19,7 @@ int main() {
     cin >> b;
     cout << "c: ";
     cin >> c;
+    */
     
     // call the solving function
     solve(a, b, c);
