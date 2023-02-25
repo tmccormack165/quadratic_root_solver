@@ -61,7 +61,7 @@ The repository contains a file called test_suite.sh which contains a shell scrip
 ./test_suite.sh 
 ```
 
-Make sure that before any commits are pushed to the repo, that all test cases passed.
+Make sure that before any commits are pushed to the repository, that all test cases passed.
 ```
 TEST-CASE #1 PASSED 
 TEST-CASE #1 PASSED
