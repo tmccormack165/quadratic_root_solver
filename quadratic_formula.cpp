@@ -11,15 +11,6 @@ int main(int argc, char *argv[]) {
     a = stof(argv[1]);
     b = stof(argv[2]);
     c = stof(argv[3]);
-    /*
-    //Get the coefficients from the user
-    cout << "a: ";
-    cin >> a;
-    cout << "b: ";
-    cin >> b;
-    cout << "c: ";
-    cin >> c;
-    */
     
     // call the solving function
     solve(a, b, c);
