@@ -53,3 +53,6 @@ c: <0>
 ```
 root 1: 0
 ```
+# Catch2 Unit Testing
+
+The Catch2 unit testing framework is the second most popular unit testing framework for C++, with approximately 11% of professionals using it for their projects. The framework was chosen for its ease of installation, and for the lack of need for functionalities exclusive to Google Test.
