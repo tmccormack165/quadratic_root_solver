@@ -39,6 +39,7 @@ $$ \\ $$
 
 # Usage
 
+1. Compile C++ file and execute the executable from the terminal
 ```
-test
+g++ quadratic_formula.cpp -o a.out && ./a.out
 ```
