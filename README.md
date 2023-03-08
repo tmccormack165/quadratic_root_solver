@@ -39,6 +39,8 @@ $$ \\ $$
 
 # Usage
 
+## Option #1
+
 1. Compile C++ file and execute the executable from the terminal
 ```
 g++ quadratic_formula.cpp -o a.out && ./a.out
@@ -53,6 +55,19 @@ c: <0>
 ```
 root 1: 0
 ```
+
+## Option #2
+
+1. Compile C++ file and execute the executable from the terminal with the coefficients as arguments
+```
+g++ quadratic_formula.cpp -o a.out && ./a.out 1 0 0
+```
+
+2. View the output
+```
+root 1: 0
+```
+
 # Shell Script Unit Testing
 
 The repository contains a file called test_suite.sh which contains a shell script that tests the quadratic root solver, currently test_suite.sh has the test cases hard coded within the file, it would be better for the script to read the test cases from a text file, that way the user coulld easily add their own test cases
