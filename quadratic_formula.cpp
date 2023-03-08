@@ -8,10 +8,22 @@ void solve(float a, float b, float c);
 
 int main(int argc, char *argv[]) {
     float a, b, c, roots;
-    a = stof(argv[1]);
-    b = stof(argv[2]);
-    c = stof(argv[3]);
-    
+
+    // if command line arguments are not provided, then fetch the coefficients from the user
+    if(argc < 4){
+        cout << "a: ";
+        cin >> a;
+        cout << "b: ";
+        cin >> b;
+        cout << "c: ";
+        cin >> c;
+    }
+    else {
+        a = stof(argv[1]);
+        b = stof(argv[2]);
+        c = stof(argv[3]);
+    }
+
     // call the solving function
     solve(a, b, c);
 
